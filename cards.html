@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            /* background-color: #ccc; */
+        }
+        .container{
+            height: 100vh;
+            width:100%;
+            /* background-color: blue; */
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .part-1{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .part-2{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            /* align-items: center; */
+            /* justify-content: center; */
+            position: relative;
+        }
+        .box{
+            height: 300px;
+            width: 300px;
+            border: 20px solid #ccc;
+            display: flex ;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 15px 20px 15px;
+            margin: 20px;
+
+        }
+        .bg-green{
+            background-color: greenyellow;
+        }
+        .bg-pink{
+            background-color: pink;
+        }
+        .bg-orange{
+            background-color: orange;
+        }
+        .image{
+            width: 50px;
+            height: 50px;
+            /* margin-top: -75px; */
+        }
+        p{
+            padding-top: 33px;
+            
+        }
+        a{
+            padding-top: 36px;
+        }
+        .image1{
+            position: absolute;
+            top: -38px;
+            width: 130px;
+            /* height:130px; */
+            /* margin-top: -321px; */
+            border-radius: 156px;
+        }
+        h3{
+            color: blue;
+        }
+        .icons{
+            position: absolute;
+            background-color: #ccc;
+            margin-top: 30px;
+            justify-content: center;
+            justify-content: flex-end;
+        }
+
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="part-1">
+        <div class="box bg-green">
+            <div class="icon">
+                <img class="image" src="html_css/images/icons8-instagram-16.png">
+            </div>
+            <h1> Instagram</h1>
+       
+            <p>I am swathi i am from mutharam karimnagar. Recently I got job from Mobigeture software private limited Company</p>
+            <a href="#">Learn more</a>
+
+        </div>
+        <div class="box bg-pink">
+            <div class="icon">
+                <img class="image" src="html_css/images/icons8-stack-of-tweets-48.png">
+            </div>
+            <h1> Twitter</h1>
+       
+            <p>I am swathi i am from mutharam karimnagar. Recently I got job from Mobigeture software private limited Company</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div class="box bg-orange">
+            <div class="icon">
+                <img class="image" src="html_css/images/icons8-facebook-48.png">
+            </div>
+            <h1> Instagram</h1>
+            
+       
+            <p>I am swathi i am from mutharam karimnagar. Recently I got job from Mobigeture software private limited Company</p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+    <div class="part-2">
+        <div class="box bg-green">
+            <img  class="image1" src="html_css/images/pngtree-vector-users-icon-png-image_4144740.jpg"> 
+            <h3> Mobigesture</h3>
+            <h5>marketing</h5>
+
+            <p>I am swathi i am from mutharam karimnagar. Recently I got job from Mobigeture software private limited Company</p>
+            <div class="icons" >
+                <img class="image" src="html_css/images/icons8-instagram-16.png">
+                <img class="image" src="html_css/images/icons8-stack-of-tweets-48.png">
+                <img class="image" src="html_css/images/icons8-facebook-48.png">
+            </div>
+           
+        </div>
+        <div class="box bg-pink"></div>
+        <div class="box bg-orange"></div>
+    </div>
+    </div>
+</body>
+</html>
