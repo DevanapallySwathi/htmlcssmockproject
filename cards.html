@@ -10,9 +10,7 @@
             padding: 0px;
             margin: 0px;
         }
-        body{
-            /* background-color: #ccc; */
-        }
+       
         .container{
             height: 100vh;
             width:100%;
@@ -21,46 +19,36 @@
             margin-right: auto;
             
         }
-        .part-1{
+        .part{
             display: flex;
             flex-wrap: nowrap;
             flex-direction: row;
             align-items: center;
             justify-content: center;
+            margin-bottom: 50px;
         }
-        .part-2{
-            display: flex;
-            flex-wrap: nowrap;
-            flex-direction: row;
-            /* align-items: center; */
-            /* justify-content: center; */
+        .part-2
+        {
             position: relative;
+            /* border: 20px solid #d3d3d3; */
         }
         .box{
             height: 300px;
             width: 300px;
-            border: 20px solid #ccc;
             display: flex ;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             padding: 20px 15px 20px 15px;
-            margin: 20px;
-
+            
         }
-        .bg-green{
-            background-color: greenyellow;
-        }
-        .bg-pink{
-            background-color: pink;
-        }
-        .bg-orange{
-            background-color: orange;
-        }
+        
         .image{
+            width: 20px;
+           
+        }
+        .images{
             width: 50px;
-            height: 50px;
-            /* margin-top: -75px; */
         }
         p{
             padding-top: 33px;
@@ -73,30 +61,36 @@
             position: absolute;
             top: -38px;
             width: 130px;
-            /* height:130px; */
-            /* margin-top: -321px; */
-            border-radius: 156px;
+          border-radius: 156px;
         }
         h3{
             color: blue;
         }
         .icons{
             position: absolute;
-            background-color: #ccc;
-            margin-top: 30px;
-            justify-content: center;
-            justify-content: flex-end;
+            bottom: 0px;
+            width: 17%;
+            background-color: #f0f0f0;
+            text-align: center;
+          
         }
+        .bg{
+            border: 20px solid #d3d3d3;
+        }
+        .bg-color{
+            border: 20px solid #f0f0f0;
+        }
+        
 
     </style>
    
 </head>
 <body>
     <div class="container">
-        <div class="part-1">
-        <div class="box bg-green">
+        <div class="part">
+        <div class="box bg">
             <div class="icon">
-                <img class="image" src="html_css/images/icons8-instagram-16.png">
+                <img class="images" src="./assests/icons8-instagram-16.png">
             </div>
             <h1> Instagram</h1>
        
@@ -104,18 +98,18 @@
             <a href="#">Learn more</a>
 
         </div>
-        <div class="box bg-pink">
+        <div class="box bg">
             <div class="icon">
-                <img class="image" src="html_css/images/icons8-stack-of-tweets-48.png">
+                <img class="images" src="./assests/icons8-stack-of-tweets-48.png">
             </div>
             <h1> Twitter</h1>
        
             <p>I am swathi i am from mutharam karimnagar. Recently I got job from Mobigeture software private limited Company</p>
             <a href="#">Learn more</a>
         </div>
-        <div class="box bg-orange">
+        <div class="box bg">
             <div class="icon">
-                <img class="image" src="html_css/images/icons8-facebook-48.png">
+                <img class="images" src="./assests/icons8-facebook-48.png">
             </div>
             <h1> Instagram</h1>
             
@@ -124,22 +118,44 @@
             <a href="#">Learn more</a>
         </div>
     </div>
-    <div class="part-2">
-        <div class="box bg-green">
-            <img  class="image1" src="html_css/images/pngtree-vector-users-icon-png-image_4144740.jpg"> 
+    <div class="part part-2 ">
+        <div class="box bg-color ">
+            <img  class="image1" src="./assests/pngtree-vector-users-icon-png-image_4144740.jpg"> 
             <h3> Mobigesture</h3>
             <h5>marketing</h5>
 
             <p>I am swathi i am from mutharam karimnagar. Recently I got job from Mobigeture software private limited Company</p>
             <div class="icons" >
-                <img class="image" src="html_css/images/icons8-instagram-16.png">
-                <img class="image" src="html_css/images/icons8-stack-of-tweets-48.png">
-                <img class="image" src="html_css/images/icons8-facebook-48.png">
+                <img class="image" src="./assests/icons8-facebook-48.png">
+                <img class="image" src="./assests/icons8-instagram-16.png">
+                <img class="image" src="./assests/icons8-stack-of-tweets-48.png">
             </div>
            
         </div>
-        <div class="box bg-pink"></div>
-        <div class="box bg-orange"></div>
+        <div class="box bg-color">
+            <img  class="image1" src="./assests/pngtree-vector-users-icon-png-image_4144740.jpg"> 
+            <h3> Mobigesture</h3>
+            <h5>marketing</h5>
+
+            <p>I am swathi i am from mutharam karimnagar. Recently I got job from Mobigeture software private limited Company</p>
+            <div class="icons" >
+                <img class="image" src="./assests/icons8-facebook-48.png">
+                <img class="image" src="./assests/icons8-instagram-16.png">
+                <img class="image" src="./assests/icons8-stack-of-tweets-48.png">
+            </div>
+        </div>
+        <div class="box bg-color">
+            <img  class="image1" src="./assests/pngtree-vector-users-icon-png-image_4144740.jpg"> 
+            <h3> Mobigesture</h3>
+            <h5>marketing</h5>
+
+            <p>I am swathi i am from mutharam karimnagar. Recently I got job from Mobigeture software private limited Company</p>
+            <div class="icons" >
+                <img class="image" src="./assests/icons8-facebook-48.png">
+                <img class="image" src="./assests/icons8-instagram-16.png">
+                <img class="image" src="./assests/icons8-stack-of-tweets-48.png">
+            </div>
+        </div>
     </div>
     </div>
 </body>
